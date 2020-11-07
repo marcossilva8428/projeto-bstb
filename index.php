@@ -10,11 +10,12 @@
 </head>
 
 <body>
- 
+  <div class="container">
     <!-- Inicio do menu superior -->
     <?php
         include_once('menu.html');
     ?>
+    </div>
    <!-- Fim do menu superior -->
     <br><br>
    
