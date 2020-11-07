@@ -58,7 +58,8 @@
             <input class="nome" type="text" name="quant" style="width: 400px;">
             <h4>Endereco: </h4>
             <input class="nome" type="text" name="ende" style="width: 400px;">
-            <input class="enviar" type="submit" name="submit">
+            <br>
+            <button class="btn btn-primary">Enviar</button>
         </form>
       <!--Teste de envio de pedido-->
       <!--<?php
