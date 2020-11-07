@@ -74,7 +74,7 @@ h4{
 /*logo3dMenuSuperior*/
 
 #formas_pagamento{
-    color: red;
+    color: white;
 }
 
 
@@ -84,6 +84,7 @@ h4{
 
 li {
     cursor: pointer;
+    list-style: none;
 }
 
 img.itens {
@@ -97,6 +98,7 @@ img.itens {
     width: 20%;
     height: 1000px;
     vertical-align: bottom;
+    list-style: none;
 }
 
 .produtos{

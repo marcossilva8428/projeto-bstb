@@ -34,27 +34,31 @@
     </div>
 <!-- Fim do menu superior -->
  <main>
-    <br><br>
-    <h2>Produtos</h2>
-    <hr>
+    <div class="container-fluid">
+        <header>
+        <h3 class="display-4">Produtos</h3>
+        <hr>
+        </header>
+    </div>
 <!-- Inicio tabela lateral de categorias -->
-    <aside class="categorias">
+    <div class="container-fluid">
+        <aside class="categorias">
 
-        <h3> Categorias </h3>
+            <h3> Categorias </h3>
 
-        <ol>
-            <li onclick="exibir_todos()">Todos (10)</li>
-            <li onclick="exibir_categoria('geladeira')">Geladeiras (1)</li>
-            <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
-            <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
-            <li onclick="exibir_categoria('lavaR')">Lavadora de roupas (2)</li>
-            <li onclick="exibir_categoria('lavaL')">Lava-louças (2)</li>   
-        </ol>
-    </aside>
+            <ol>
+                <li onclick="exibir_todos()">Todos (10)</li>
+                <li onclick="exibir_categoria('geladeira')">Geladeiras (1)</li>
+                <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
+                <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
+                <li onclick="exibir_categoria('lavaR')">Lavadora de roupas (2)</li>
+                <li onclick="exibir_categoria('lavaL')">Lava-louças (2)</li>   
+            </ol>
+        </aside>
 <!-- Fim tabela lateral de categorias -->
 
 <!-- Inicio tabela de produtos-->
-   <div class="produtos">
+   <div class="produtos bg-white">
 
         <?php
 
@@ -65,8 +69,8 @@
         ?>
 
         
-        <div class="produto" id="<?php echo $rows["categoria"];?>">
-            <img class="itens" img src="<?php echo $rows["imagem"];?>" width="120px" onclick="zoom(this)">
+        <div class="produto bg-white" id="<?php echo $rows["categoria"];?>">
+            <img class="itens " img src="<?php echo $rows["imagem"];?>" width="120px" onclick="zoom(this)">
 
             <br>
             <p><?php echo $rows["descricao"];?></p>
@@ -90,9 +94,11 @@
     </div>
      <!-- Fim tabela de produtos -->
 </main>
+</div>
 
     <br><br><br><br><br><br>
 
+    <div class="container-fluid bg-danger">
     <footer id="rodape">
 
         <p id="formas_pagamento"><b>Formas de pagamento:</b></p>
@@ -101,6 +107,7 @@
     <p>Desenvolvido por Marcos dos Anjos Bernardes da Silva Junior</p>
 
     </footer>
+    </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

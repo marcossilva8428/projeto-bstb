@@ -26,15 +26,16 @@
    
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
+    <div class="container-fluid bg-danger">
     <footer id="rodape">
+
         <p id="formas_pagamento"><b>Formas de pagamento:</b></p>
         <img src="./imagens/formas-pagamento.png">
         <p>&copy;Recode Pro</p>
-        <p>Desenvolvido por Marcos dos Anjos Bernardes da Silva Junior</p>
+    <p>Desenvolvido por Marcos dos Anjos Bernardes da Silva Junior</p>
+
     </footer>
-
-
-
+    </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
